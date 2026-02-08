@@ -106,6 +106,8 @@ docker run -d -p 5555:5555 spotify-app
 ```
 ## Project Screenshots
 
+<img width="1918" height="866" alt="Image" src="https://github.com/user-attachments/assets/13a2fa19-d9e8-411f-a0bc-56c78c0fc8bd" />
+
 <img width="1892" height="952" alt="Image" src="https://github.com/user-attachments/assets/5ac0e641-392f-42e9-afa6-cd52dca96d5c" />
 
 <img width="1127" height="482" alt="Image" src="https://github.com/user-attachments/assets/abd48b81-095b-4560-b252-ec682193495f" />

@@ -114,10 +114,10 @@ docker run -d -p 5555:5555 spotify-app
 
 <img width="1176" height="428" alt="Image" src="https://github.com/user-attachments/assets/75a9cc0a-be3a-47eb-bfa9-04fdd79ce3df" />
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Juhi Sinha
+**Juhi Sinha**  
+Aspiring **DevOps & Cloud Engineer**
 
-Aspiring DevOps / Cloud Engineer
-
-Focused on AWS, CI/CD, Automation & Code Quality
+Passionate about building reliable CI/CD pipelines, improving code quality with **SonarQube**, and automating deployments using **Jenkins, Docker, and AWS**.  
+Focused on writing clean, maintainable code and continuously improving quality through real-world DevOps practices.

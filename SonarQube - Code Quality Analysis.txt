@@ -84,3 +84,12 @@ Similarly configure dockerhub credentials with id as "dockerhub-credentials" wit
 Manage Jenkins --- System --- Scroll down to 'SonarQube servers' --- Click on 'Add SonarQube' --- Name: sonar-server --- ServerURL: <PublicIPofSQinstalledVM>:9000 --- Server Authentication Token: select 'sonar-token' --- Apply --- Save
 
 
+============================
+Rebuild & Restart
+
+cd ~/SonarQube-Project
+mvn clean package
+docker stop spotify-app || true
+docker rm spotify-app || true
+docker build -t juhisinha/spotify-app:latest .
+docker run -d -p 5555:5555 --name spotify-app juhisinha/spotify-app:latest

@@ -63,3 +63,50 @@ SonarQube-Project-Kastro/
 │ └── java/com/kastro/spotify
 │
 └── target/
+
+
+---
+
+## 🔄 CI/CD Pipeline Flow
+
+1. **Git Checkout**
+2. **Maven Compile**
+3. **Unit Testing**
+4. **SonarQube Code Analysis**
+5. **Quality Gate Evaluation**
+6. **Maven Package**
+7. **Docker Image Build**
+8. **Docker Push**
+9. **Container Deployment**
+
+All stages are automated using a **Jenkins Declarative Pipeline**.
+
+---
+
+## 📊 SonarQube Metrics Tracked
+
+- 🐞 Bugs
+- 🔐 Vulnerabilities
+- 🧹 Code Smells
+- 📊 Test Coverage
+- 📁 Code Duplications
+- 🚦 Quality Gate Status
+
+> ⚠️ Quality Gate failures are intentionally kept during learning to understand **why projects fail and how to fix them**, which reflects real industry scenarios.
+
+---
+
+## 🐳 Docker Support
+
+The application is containerized using Docker:
+
+```bash
+docker build -t juhisinha/spotify-app:latest .
+docker run -d -p 5555:5555 spotify-app
+```
+
+👩‍💻 Author
+
+Juhi Sinha
+Aspiring DevOps / Cloud Engineer
+Focused on AWS, CI/CD, Automation & Code Quality

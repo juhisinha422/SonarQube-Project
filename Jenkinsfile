@@ -9,14 +9,14 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        DOCKERHUB_USERNAME = 'kastrov'  // Set this directly to your Docker Hub username
+        DOCKERHUB_USERNAME = 'juhisinha'  // Set this directly to your Docker Hub username
         DOCKER_IMAGE = "${DOCKERHUB_USERNAME}/spotify-app:latest"
     }
 
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/KastroVKiran/SonarQube-Project-Kastro.git'
+                git branch: 'main', url: 'https://github.com/juhisinha422/SonarQube-Project.git'
             }
         }
 
